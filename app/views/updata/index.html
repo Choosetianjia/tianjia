@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="/css/register.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div id="content">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="back"><a href="/login">返回</a></div>
+			<h1>淘宝注册</h1>
+		</div>
+
+		<!-- 注册部分 -->
+		<div class="register">
+			<form action="/login/register" method="post">
+				<div class="register_t">
+					
+				</div>
+				<div class="register_c">
+					<div class="register_u">
+						<div>账号</div>
+						<input type="text" name="username" value="" class="user_inp">
+						<span></span>
+					</div>
+					<div class="register_p">
+						<div>密码</div>
+						<input type="password" name="password" value="" class="pass_inp">
+						<span></span>
+					</div>
+				</div>
+				<div class="tijiao">
+					<div>
+						<input type="submit" value="修改" class="zuzhi" disabled>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+<script src="/js/jquery-1.8.3.min.js""></script>
+<script>
+	// 计算html标签字体大小
+    (function(doc, win) {
+        var docEl = doc.documentElement, // 获取html对象
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', // 横屏是否支持，不支持则为浏览器大小改变
+
+            // 计算页面字体大小
+            recalc = function() {
+                // 获取页面宽度
+                var clientWidth = docEl.clientWidth;
+                // 获取不到页面宽度，直接返回
+                if (!clientWidth) return;
+                // 设置html字体大小(浏览器默认字体大小为16px)
+               
+                docEl.style.fontSize = clientWidth / 375 * 16 + "px";
+            };
+        // 不支持addEventListener,返回
+        if (!doc.addEventListener) return;
+        // 监听事件，获取当前html标签的字体大小
+        win.addEventListener(resizeEvt, recalc, false);
+        // dom内容加在完成事件
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+
+
+
+
+    //获取用户名的val值
+    $('.user_inp').keyup(function(){
+
+    	 var value=$.trim($('.user_inp').val());
+
+    	 var reg=/^[a-zA-Z0-9]{6,12}$/;
+    	 if(reg.test(value)){
+    	 	$('.register_u>span').html('可以使用');
+    	 	$('.register_u>span').css('color','green')
+    	 	$('.tijiao .zuzhi').prop("disabled",false);
+    	 }else{
+    	 	if(!reg.test(value)&&value!=''){
+    	 		$('.register_u>span').html('不可以使用');
+    	 		$('.register_u>span').css('color','red')
+    	 		$('.tijiao .zuzhi').attr("disabled","disabled");
+    	 	}else{
+    	 		$('.register_u>span').html('请输入用户名');
+    	 		$('.tijiao .zuzhi').attr("disabled","disabled");
+    	 	}	
+    	 }   	 
+    })
+
+    $('.pass_inp').keyup(function(){
+
+    	 var value=$.trim($('.pass_inp').val());
+
+    	 var reg=/^[a-zA-Z0-9]{6,12}$/;
+    	 if(reg.test(value)){
+    	 	$('.register_p>span').html('可以使用');
+    	 	$('.register_p>span').css('color','green')
+
+    	 }else{
+    	 	$('.register_p>span').html('不可以使用');
+    	 	$('.register_p>span').css('color','red')
+    	 }
+   		 
+    })
+   
+
+
+
+
+
+
+</script>
+</html>

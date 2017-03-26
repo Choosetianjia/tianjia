@@ -1,0 +1,409 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+}
+a{
+	color:#000;
+}
+
+/*头部内容*/
+#header{
+	width:100%;
+	height:8rem;
+}
+
+
+/*搜索框部分*/
+.search{
+	width:100%;
+	height:2.3rem;
+	background:red;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 999;
+}
+.logo{
+	width:1.6rem;
+	height:1.6rem;
+	float:left;
+	margin-left:0.3rem;
+	line-height:2rem;
+}
+.logo img{
+	width:1.6rem;
+	margin-top:0.5rem;
+}
+.search_c{
+	width:88%;
+	float:left;
+	line-height:2rem;
+	margin-left:0.3rem;
+}
+.search_c input{
+	width:100%;
+	height:1.5rem;
+	border-radius:0.3rem;
+	background:#CD0000;
+	border:none;
+	text-align:center;
+}
+
+
+/*轮播图部分*/
+.swiper-container{
+	margin-top:2.3rem;
+	width:100%;
+}
+.swiper-container img{
+	width:100%;
+}
+
+
+
+/*主要内容*/
+#main{
+	width:100%;
+	min-height:10rem;
+}
+
+
+
+/*菜单*/
+.menu .menu_1{
+	width:90%;
+	height:5rem;
+	margin-left:5%;
+	text-align:center;
+}
+.menu .menu_1 div{
+	width:20%;
+	height:5rem;
+	float:left;
+}
+.menu .menu_1 div p{
+	color:rgb(102,102,102);
+	font-size:0.8rem;
+	margin-top:0.3rem;
+}
+.menu .menu_1 div img{
+	width:90%;
+}
+
+.menu .menu_2{
+	width:90%;
+	height:5rem;
+	margin-left:5%;
+	text-align:center;
+}
+.menu .menu_2 div{
+	width:20%;
+	height:5rem;
+	float:left;
+}
+.menu .menu_2 div p{
+	color:rgb(102,102,102);
+	font-size:0.8rem;
+	margin-top:0.3rem;
+}
+.menu .menu_2 div img{
+	width:90%;
+}
+
+
+/*淘宝头条*/
+.headlines{
+	width:100%;
+	height:2rem;
+	border-top:0.1rem solid #DDD;
+	border-bottom:0.4rem solid #DDD;
+}
+.headlines_l{
+	width:25%;
+	height:2rem;
+	border-right:0.1rem solid #DDD;
+	line-height:2.7rem;
+	float:left;
+}
+.headlines img{
+	width:75%;
+	margin-left:12%;
+}
+
+/*头条内容*/
+.headlines_c{
+	width:74%;
+	height:2rem;
+	float:left;
+	margin-left:0.1rem;
+	overflow:hidden;
+}
+.headlines_c .headlines_c_1{
+	margin-left:0.8rem;
+	margin-top:0.4rem;
+	width:12%;
+	height:1.1rem;
+	border:1px solid rgb(216, 20, 33);
+	line-height:1.1rem;
+	text-align:center;
+	border-radius:0.2rem;
+	font-size:0.7rem;
+	color:rgb(216, 20, 33);
+	float:left;
+}
+.headlines_c .headlines_c_2{
+	width:60%;
+	line-height:2rem;
+	margin-left:1rem;
+	float:left;
+	font-size:0.8rem;
+	color:#919191;
+}
+
+
+
+/*淘抢购,有好货*/
+.buying{
+	width:100%;
+	height:12rem;
+	border-bottom:0.4rem solid #DDD;
+}
+.buying_q{
+	width:40%;
+	height:12rem;
+	border-right:0.1rem solid #DDD;
+	float:left;
+}
+.buying_q img{ 
+	width:100%;
+	height:12rem;
+}
+
+
+.buying_h1{
+	width:58%;
+	height:5rem;
+	float:left;
+}
+.buying_h1 img{
+	width:50%;
+	float:left;
+}
+.buying_h2{
+	width:58%;
+	height:5rem;
+	float:left;
+	margin-top:0.5rem;
+}
+.buying_h2 img{
+	width:50%;
+	float:left;
+}
+
+
+
+/*超实惠*/
+.Affordable{
+	width:100%;
+	height:14rem;
+	clear:both;
+}
+
+.Affordable_t{
+	width:100%;
+	height:2rem;
+	line-height:2.1rem;
+}
+.Affordable_t img{
+	width:5%;
+	float:left;
+	margin-left:41%;
+	margin-top:0.45rem;
+}
+.Affordable_t div{
+	margin-left:2%;
+	float:left;
+	font-size:0.8rem;
+	color:#EE2C2C;
+}
+
+
+.Affordable_a{
+	width:100%;
+	height:6rem;
+	clear:both;
+}
+.Affordable_a div{
+	width:100%;
+	float:left;
+}
+.Affordable_a .Affordable_a1{
+	width:40%;
+	height:6rem;
+}
+.Affordable_a .Affordable_a1 img{
+	width:100%;
+	height:6rem;
+}
+
+.Affordable_a .Affordable_a2{
+	width:20%;
+	height:6rem;
+}
+.Affordable_a .Affordable_a2 img {
+	width:100%;
+	height:6rem;
+}
+.Affordable_a .Affordable_a3{
+	width:20%;
+	height:6rem;
+}
+.Affordable_a .Affordable_a3 img {
+	width:100%;
+	height:6rem;
+}
+
+.Affordable_a .Affordable_a4{
+	width:20%;
+	height:6rem;
+}
+.Affordable_a .Affordable_a4 img {
+	width:100%;
+	height:6rem;
+}
+
+
+
+.Affordable_b{
+	width:100%;
+	height:6rem;
+}
+.Affordable_b div{
+	width:100%;
+	float:left;
+}
+.Affordable_b .Affordable_b1{
+	width:40%;
+	height:6rem;
+}
+.Affordable_b .Affordable_b1 img{
+	width:100%;
+	height:6rem;
+}
+
+.Affordable_b .Affordable_b2{
+	width:20%;
+	height:6rem;
+}
+.Affordable_b .Affordable_b2 img {
+	width:100%;
+	height:6rem;
+}
+.Affordable_b .Affordable_b3{
+	width:20%;
+	height:6rem;
+}
+.Affordable_b .Affordable_b3 img {
+	width:100%;
+	height:6rem;
+}
+
+.Affordable_b .Affordable_b4{
+	width:20%;
+	height:6rem;
+}
+.Affordable_b .Affordable_b4 img {
+	width:100%;
+	height:6rem;
+}
+
+
+
+
+/*猜你喜欢*/
+.gyl{
+	width:100%;
+	height:3.7rem;
+	background:#DDD;
+}
+.gyl_1{
+	width:100%;
+	text-align:center;
+	padding:0.5rem 0rem;
+}
+.gyl_1 span{
+	font-size:0.9rem;
+	font-weight:800;
+}
+.gyl_1 p{
+	font-size:0.9rem;
+}
+.gyl_1 img{
+	width:1.2rem;
+	height:1.2rem;
+}
+
+
+
+
+/*猜你喜欢下面的内容*/
+.gyl_x{
+	width:100%;
+	height:15rem;
+}
+.gyl_x .test{
+	width:48.8%;
+	height:15rem;
+	float:left;
+	border-right:0.25rem solid #DDD;
+	border-bottom:0.25rem solid #DDD;
+}
+.gyl_x .test img{
+	width:100%;
+}
+.gyl_x .test p{
+	font-size:0.8rem;
+	margin-top:0.5rem;
+	margin-left:0.5rem;
+	color:#666;
+	font-family:'微软雅黑';
+}
+.gyl_x .test span{
+	font-family:'微软雅黑';
+	color:red;
+	display:inline-block;
+	margin-top:0.3rem;
+	font-size:1rem;
+	font-weight:800;
+	margin-left:0.5rem;
+}
+
+
+
+
+/*尾部部分*/
+#footer{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:2.8rem;
+	background:#FFF;
+}
+#footer div{
+	width:20%;
+	height:2.5rem;
+	float:left;
+	text-align:center;
+	margin-top:0.5rem;
+}
+#footer div p{
+	font-size:0.8rem;
+	margin-top:-0.2rem;
+}
+#footer div img{
+	width:30%;
+	height:1.1rem;
+}

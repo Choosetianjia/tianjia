@@ -1,0 +1,144 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+}
+#content{
+	width:100%;
+	height:60rem;
+}
+
+/*搜索框部分*/
+.search{
+	width:100%;
+	height:3.5rem;
+	background:#F6F6F6;
+	border-bottom:1px solid #dbdbdb;
+	overflow:hidden;
+}
+.search_1{
+	width:85%;
+	height:2.5rem;
+	background:#e3e3e5;
+	margin-left:0.5rem;
+	margin-top:0.5rem;
+	border-radius:0.4rem;
+	float:left;
+}
+.search_1 .baobei{
+	width:20%;
+	height:2.5rem;
+	line-height:2.5rem;
+	margin-left:0.7rem;
+	font-family:'微软雅黑';
+	color:#666;
+	float:left;
+}
+.search_1 .baobei span{
+	display:inline-block;
+	border-style:solid;
+	overflow:hidden;
+	border-width:0.4rem;
+	width:0rem;
+	height:0px;
+	border-color:#000 transparent transparent transparent; 
+}
+.search_1 .sousuo{
+	line-height:2.5rem;
+	width:60%;
+	height:2.5rem;
+	float:left;
+}
+.search_1 .sousuo input{
+	height:1.5rem;
+	border:none;
+	background:#e3e3e5;
+	outline:none;
+}
+.search_1 .sousuo_t{
+	float:left;
+	width:15%;
+	height:2.5rem;
+}
+.sousuo_t img{
+	margin-top:0.3rem;
+	width:2rem;
+	height:2rem;
+}
+
+
+.search_f{
+	text-align:center;
+	width:12%;
+	height:2.5rem;
+	margin-top:0.8rem;
+	float:left;
+	background-position:4px -200px;
+}
+.search_f img{
+	width:70%;
+}
+
+/*排序部分*/
+.paixu{
+	width:100%;
+	height:2.5rem;
+	border-bottom:0.1rem solid #DDD;
+}
+.paixu ul li{
+	line-height:2.5rem;
+	text-align:center;
+	float:left;
+	width:24.6%;
+	height:2.5rem;
+	border-right:0.1rem solid #DDD;
+}
+.paixu ul li:first-child{
+	color:red;
+}
+
+.paixu ul li:last-child img{
+	margin-top:0.4rem;
+	width:30%;
+}
+
+
+
+/*主要内容*/
+#main{
+	width:100%;
+	height:43.75rem;
+}
+.main_a1{
+	width:95%;
+	height:6.25rem;
+	border-bottom:0.1rem solid #DDD;
+	padding:12px 9px;
+}
+.main_a2{
+	width:30%;
+	float:left;
+}
+.main_a2 img{
+	width:6.25rem;
+	height:6.25rem;
+}
+.main_a3{
+	width:65%;
+	float:left;
+	font-size:0.8rem;
+}
+.main_a3 p{
+	margin-top:1rem;
+}
+.main_a3>p{
+	color:red;
+}
+.main_a3 a{
+	color:#999;
+}
+.main_a4 p{
+	float:left;
+	margin-left:0.5rem;
+}

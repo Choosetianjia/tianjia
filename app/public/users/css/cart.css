@@ -1,0 +1,223 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+}
+#content{
+	width:100%;
+}
+a{
+	color:#000;
+}
+
+
+/*头部开始*/
+#header{
+	width:100%;
+	height:2.75rem;
+	border-bottom:0.8rem solid #EEE;
+}
+.header_1{
+	width:37%;
+	height:2.75rem;
+	line-height:2.75rem;
+	font-size:1.8rem;
+	font-weight:800;
+	float:left;
+	margin-left:4%;
+}
+.header_2{
+	width:55%;
+	height:2.75rem;
+	float:left;
+	line-height:2.75rem;
+}
+
+
+
+/*主要内容开始*/
+#main{
+	width:100%;
+}
+.main_1{
+	width:100%;
+	height:11rem;
+}
+.main_1t{
+	width:100%;
+	height:3rem;    
+}
+.main_1t .main_i{
+	width:10%;
+	height:3rem;
+	line-height:3rem;
+	text-align:center;
+	float:left;
+}
+.main_1t .main_logon{
+	width:10%;
+	height:3rem;
+	line-height:3rem;
+	text-align:center;
+	float:left;
+}
+.main_1t .main_logon img{
+	width:1rem;
+	height:1rem;
+}
+.main_1t .main_tit{
+	width:70%;
+	height:3rem;
+	float:left;
+}
+.main_1t .main_tit1{
+	width:30%;
+	height:3rem;
+	line-height:3rem;
+	font-size:0.8rem;
+	float:left;
+}
+.main_1t .main_tit1 a{
+	color:#000;
+}
+.main_1t .main_tit2{
+	width:10%;
+	height:3rem;
+	float:left;
+	line-height:3rem;
+	text-align:center;
+	font-weight:800;
+}
+.main_1t .main_bianji{
+	width:10%;
+	height:3rem;
+	float:left;
+	line-height:3rem;
+	font-size:0.8rem;
+}
+.main_1t .main_bianji a{
+	color:#000;
+}
+
+.main2_c{
+	width:100%;
+	height:8rem;
+	background:#f5f5f5;
+}
+.main2_c .main2_inp{
+	width:10%;
+	height:8rem;
+	line-height:8rem;
+	text-align:center;
+	float:left;
+}
+.main2_c .main2_big{
+	width:90%;
+	height:6rem;
+	float:left;
+	padding:1rem 0;
+}
+.main2_c .main2_big .main2_img{
+	width:30%;
+	height:6rem;
+	float:left;
+}
+.main2_c .main2_big .main2_img img{
+	width:100%;
+	height:6rem
+}
+.main2_c .main2_big .main2_title{
+	float:left;
+	width:65%;
+	font-size:0.8rem;
+	margin-left:3%;
+}
+.main2_c .main2_big .main2_chi{
+	float:left;
+	width:65%;
+	font-size:0.8rem;
+	margin-left:3%;
+	margin-top:0.4rem;
+}
+.main2_c .main2_big .main2_jiage{
+	float:left;
+	width:35%;
+	font-size:0.8rem;
+	margin-left:3%;
+	margin-top:0.4rem;
+}
+.main2_c .main2_big .main2_jiage span:first-child{
+	color:#f60;
+	font-family:'微软雅黑';
+}
+.main2_c .main2_big .main2_jiage span:first-child span{
+	font-size:1.1rem;
+}
+.main2_c .main2_big .main2_jiage span:nth-child(2){
+	text-decoration:line-through;
+}
+.main2_c .main2_big .main2_shuliang{
+	width:30%;
+	height:2rem;
+	float:left;
+	line-height:2rem;
+	font-size:0.8rem;
+}
+.main2_c .main2_big .main2_shuliang input{
+	width:25%;
+	height:1.5rem;
+	border:none;
+}
+.main2_c .main2_big .main2_shuliang button{
+	border:none;
+	background:#f5f5f5;
+	padding:0.5rem 0.5rem ;
+	font-size:1rem;
+}
+
+
+/*全选全不选按钮*/
+#main .all{
+	background:#FFF;
+	width:100%;
+	height:3rem;
+	border-top:1px solid #DDD;
+	position:fixed;
+	bottom:0px;
+}
+#main .all .all_inp{
+	width:21%;
+	height:3rem;
+	line-height:3rem;
+	text-align:center;
+	float:left;
+}
+#main .all .heji{
+	width:49%;
+	height:3rem;
+	float:left;
+	text-align:right;
+}
+#main .all .heji p{
+	margin-top:0.4rem;
+	margin-right:0.5rem;
+}
+#main .all .heji p:nth-child(1){
+	font-size:0.9rem;
+}
+#main .all .heji p:nth-child(1) span{
+	color:red;
+}
+#main .all .heji p:nth-child(2){
+	font-size:0.7rem;
+}
+#main .all .jiesuan{
+	width:30%;
+	height:3rem;
+	background:#F40;
+	float:left;
+	line-height:3rem;
+	text-align:center;
+	color:#FFF;
+}
